@@ -65,7 +65,6 @@ def visualizar(dados, rsi, macd, sinal):
     plt.tight_layout()
     plt.show()
 
-# Exemplo de uso
 if __name__ == "__main__":
     caminho_arquivo = 'caminho_para_seu_arquivo_de_dados.csv'
     dados = carregar_dados(caminho_arquivo)
